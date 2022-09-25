@@ -1,7 +1,7 @@
 from os.path import join
 
 _BASE_DATA_PATH = "../data"
-_BIG_DATA_PATH = "/home/data3/jskj_taozhe"
+_BIG_DATA_PATH = PATH
 dataset_config = {
     'mnist': {
         'path': join(_BASE_DATA_PATH, 'mnist'),
