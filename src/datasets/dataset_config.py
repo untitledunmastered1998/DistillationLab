@@ -22,7 +22,8 @@ dataset_config = {
         'crop': None,
         'pad': None,
         'flip': False,
-        'normalize': ((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
+        'normalize': ((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
+        'extend_channel': None
     },
     'cifar100': {
         'path': join(_BASE_DATA_PATH, 'cifar100'),
@@ -105,7 +106,8 @@ dataset_config = {
             251, 270, 493, 94, 773, 610, 278, 16, 363, 92, 15, 593, 96, 468, 252, 699, 377, 95, 799, 868, 820, 328, 756,
             81, 991, 464, 774, 584, 809, 844, 940, 720, 498, 310, 384, 619, 56, 406, 639, 285, 67, 634, 792, 232, 54,
             664, 818, 513, 349, 330, 207, 361, 345, 279, 549, 944, 817, 353, 228, 312, 796, 193, 179, 520, 451, 871,
-            692, 60, 481, 480, 929, 499, 673, 331, 506, 70, 645, 759, 744, 459]
+            692, 60, 481, 480, 929, 499, 673, 331, 506, 70, 645, 759, 744, 459],
+        'extend_channel': None
     },
     'CUB_200_2011': {
         'path': join(_BIG_DATA_PATH, 'CUB_200_2011'),
@@ -114,7 +116,8 @@ dataset_config = {
         'pad': None,
         'flip': True,
         'normalize': ((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
-        'class_order': None
+        'class_order': None,
+        'extend_channel': None
     },
     'cars': {
         'path': join(_BIG_DATA_PATH, 'Cars'),
@@ -123,7 +126,8 @@ dataset_config = {
         'pad': None,
         'flip': True,
         'normalize': ((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
-        'class_order': None
+        'class_order': None,
+        'extend_channel': None
     },
     'flowers102': {
         'path': join(_BIG_DATA_PATH, 'flowers102'),
@@ -132,7 +136,8 @@ dataset_config = {
         'pad': None,
         'flip': True,
         'normalize': ((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
-        'class_order': None
+        'class_order': None,
+        'extend_channel': None
     },
     'tiny_imagenet': {
         'path': join(_BIG_DATA_PATH, 'Tiny_Imagenet/tiny-imagenet-200'),
@@ -141,7 +146,8 @@ dataset_config = {
         'crop': 64,
         'flip': True,
         'normalize': ((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
-        'class_order': None
+        'class_order': None,
+        'extend_channel': None
     },
     'dogs': {
         'path': join(_BIG_DATA_PATH, 'dogs/Images'),
@@ -150,7 +156,8 @@ dataset_config = {
         'pad': None,
         'flip': True,
         'normalize': ((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
-        'class_order': None
+        'class_order': None,
+        'extend_channel': None
     },
     'aircrafts': {
         'path': join(_BIG_DATA_PATH, 'aircrafts'),
@@ -159,6 +166,7 @@ dataset_config = {
         'pad': None,
         'flip': True,
         'normalize': ((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
-        'class_order': None
+        'class_order': None,
+        'extend_channel': None
     }
 }
