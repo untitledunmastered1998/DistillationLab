@@ -11,7 +11,7 @@ experiment eviroument
 ## 1. dataset  
 
 |datasets |#train samples|#test samples|#classes|resolution|  
-|:------- |:-------|:-------|:-------|:-------|  
+|:-------:|:-------:|:-------:|:-------:|:-------:|  
 |CIFAR100|50000|10000|100|low|  
 |MNIST|60000|10000|10|low|  
 |vggface2|2763078|548208|9131|low|  
@@ -32,7 +32,7 @@ Available teacher and student networks including:
 'squeezenet1_0', 'squeezenet1_1'  
 
 |networks|parameters|  
-|:------- |:-------|  
+|:-------:|:-------:|  
 |resnet32||   
 |ResNet18||   
 |ResNet34||   
@@ -60,7 +60,7 @@ Baseline performance follows standard image classification training procedures.
 
 ## 5. training skills
 |tricks|performance|  
-|:------- |:-------|  
+|:-------:|:-------:|  
 |baseline||   
 |+xavier init / kaiming init||   
 |+pretrained weights||   
