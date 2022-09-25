@@ -6,9 +6,13 @@ dataset_config = {
     'mnist': {
         'path': join(_BASE_DATA_PATH, 'mnist'),
         'normalize': ((0.1307,), (0.3081,)),
-        'class_order': None
+        'class_order': None,
+        'crop': None,
+        'pad': None,
+        'resize': None,
+        'flip': False,
         # Use the next 3 lines to use MNIST with a 3x32x32 input
-        # 'extend_channel': 3,
+        'extend_channel': 3,
         # 'pad': 2,
         # 'normalize': ((0.1,), (0.2752,))    # values including padding
     },
@@ -44,13 +48,14 @@ dataset_config = {
         ]
     },
     'vggface2': {
-        'path': join(_BIG_DATA_PATH, 'vggface100'),
+        'path': join(_BIG_DATA_PATH, 'vggface2/train'),
         'resize': 256,
         'crop': 224,
         'pad': None,
         'flip': True,
         'normalize': ((0.5199, 0.4116, 0.3610), (0.2604, 0.2297, 0.2169)),
-        'class_order': None
+        'class_order': None,
+        'extend_channel': None
     },
     'imagenet_256': {
         'path': join(_BIG_DATA_PATH, 'ILSVRC12_256/train'),
@@ -59,7 +64,8 @@ dataset_config = {
         'pad': None,
         'flip': True,
         'normalize': ((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
-        'class_order': None
+        'class_order': None,
+        'extend_channel': None
     },
     'imagenet_subset': {
         'path': join(_BIG_DATA_PATH, 'ILSVRC12_256/train'),
@@ -72,7 +78,9 @@ dataset_config = {
             28, 53, 13, 81, 45, 82, 6, 59, 83, 16, 15, 44, 91, 41, 72, 60, 79, 52, 20, 10, 31, 54, 37, 95, 14, 71, 96,
             98, 97, 2, 64, 66, 42, 22, 35, 86, 24, 34, 87, 21, 99, 0, 88, 27, 18, 94, 11, 12, 47, 25, 30, 46, 62, 69,
             36, 61, 7, 63, 75, 5, 32, 4, 51, 48, 73, 93, 39, 67, 29, 49, 57, 33
-        ]
+        ],
+        'extend_channel': None,
+        'pad': None
     },
     'imagenet_32_reduced': {
         'path': join(_BIG_DATA_PATH, 'ILSVRC12_32'),
