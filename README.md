@@ -10,19 +10,19 @@ experiment eviroument
 
 ## 1. dataset  
 
-datasets | #train samples | #test samples | #classes |resolution 
- ------- | ------- | -------  |-------
-CIFAR100 |50000|10000|100|low 
-MNIST  |60000|10000|10|low 
-vggface2  |2763078|548208|9131|low
-ImageNet   |1281167 |50000 |100|high
-ImageNet_subset |12610|5000 |100|high
-(loader还没写)ImageNet32  | | | low
-Tiny-ImageNet  |100000|10000|200|low
-Cars  |8144|8041|196|
-flowers102  2040|6149|102|
-stanford_dogs  12601|8519|120|
-aircrafts  6667|3333|100|
+|datasets |#train samples|#test samples|#classes|resolution|  
+|:------- |:-------|:-------|:-------|:-------|  
+|CIFAR100|50000|10000|100|low|  
+|MNIST|60000|10000|10|low|  
+|vggface2|2763078|548208|9131|low|  
+|ImageNet|1281167|50000|1000|high|
+|ImageNet_subset|12610|5000|100|high|  
+|(loader还没写)ImageNet32| | | low|  
+|Tiny-ImageNet|100000|10000|200|low|  
+|Cars|8144|8041|196|high|  
+|flowers102|2040|6149|102|high|  
+|stanford_dogs|12601|8519|120|high|  
+|aircrafts|6667|3333|100|high|  
 
 ## 2. models
 Available teacher and student networks including:  
