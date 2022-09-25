@@ -140,7 +140,7 @@ def get_loaders(dataset, num_workers, batch_size, validation):
                                                   crop=dc['crop'],
                                                   flip=dc['flip'],
                                                   normalize=dc['normalize'],
-                                                  extend_channel=None)
+                                                  extend_channel=dc['extend_channel'])
 
     if dataset == "mnist":
         trainset = torchvision.datasets.MNIST(root='./data', train=True, download=True,
