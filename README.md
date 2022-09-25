@@ -73,5 +73,7 @@ Baseline performance follows standard image classification training procedures.
 |+cosine learning rate decay||  
 |+warm up stage||  
 |+mixup||  
-|+Zero γ||  
+|+Zero γ||
+|data augmentation||
+|Learning Rate Schedule||
 
