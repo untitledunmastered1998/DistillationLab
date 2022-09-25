@@ -80,7 +80,7 @@ if __name__ == '__main__':
                         help='Random seed (default=%(default)s)')
     parser.add_argument('--save-models', action='store_true',
                         help='Save trained models (default=%(default)s)')
-    parser.add_argument('--s-path', type=str, default='/home/data3/jskj_taozhe/DistillationTest/CIFAR100/S_models/',
+    parser.add_argument('--s-path', type=str, default='/',
                         help='Save teacher model pth file(default=%(default)s)')
 
     # 数据集参数 dataset args
