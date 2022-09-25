@@ -54,7 +54,24 @@ Available teacher and student networks including:
 ④ PKT [Learning Deep Representations with Probabilistic Knowledge Transfer] ECCV 2018(https://arxiv.org/abs/1803.10837)  
 ⑤ RKD [Relational Knowledge Distillation] CVPR 2019(https://arxiv.org/abs/1904.05068)  
 
-## 4. Experiment setup  
+## 4. experiment setup  
 Baseline performance follows standard image classification training procedures.  
 
+
+## 5. training skills
+|tricks|performance|  
+|:------- |:-------|  
+|baseline||   
+|+xavier init / kaiming init||   
+|+pretrained weights||   
+|+no bias decay||   
+|+label smoothing||  
+|+random erasing||  
+|+linear scaling learning rate||  
+|+cutout||  
+|+dropout||  
+|+cosine learning rate decay||  
+|+warm up stage||  
+|+mixup||  
+|+Zero γ||  
 
