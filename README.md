@@ -8,9 +8,9 @@ experiment eviroument
 - pytorch1.10.1
 
 
-## 1. dataset  
+## 1. datasets  
 
-|datasets |#train samples|#test samples|#classes|resolution|  
+|dataset |#train samples|#test samples|#classes|resolution|  
 |:-------:|:-------:|:-------:|:-------:|:-------:|  
 |CIFAR100|50000|10000|100|low|  
 |MNIST|60000|10000|10|low|  
