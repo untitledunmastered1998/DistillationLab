@@ -127,3 +127,15 @@ Baseline performance follows standard image classification training procedures.
 |L2|||||   
 |AT|||||  
 |overhaul|||||
+
+#### cross-model transfer
+
+|datasets|student|KD|AT|L2|FitNets|CRD|RKD|PKT|teacher|  
+|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|   
+|CIFAR100→Tiny-ImageNet||||||||||  
+|CIFAR100→STL-10||||||||||  
+
+
+
+
+
