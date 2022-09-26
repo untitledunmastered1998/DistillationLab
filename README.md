@@ -48,17 +48,18 @@ Available teacher and student networks including:
 |squeezenet1_1||  
 
 ## 3. distillation methods  
-① knowledge distillation [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)  
+① knowledge distillation [Distilling the Knowledge in a Neural Network] (https://arxiv.org/abs/1503.02531)  
 ② L2  
 ③ FitNets [FitNets: Hints for Thin Deep Nets] (https://arxiv.org/abs/1412.6550)  
-④ PKT [Learning Deep Representations with Probabilistic Knowledge Transfer]ECCV2018(https://arxiv.org/abs/1803.10837)  
+④ PKT [Learning Deep Representations with Probabilistic Knowledge Transfer] ECCV2018 (https://arxiv.org/abs/1803.10837)  
 ⑤ RKD [Relational Knowledge Distillation] CVPR 2019(https://arxiv.org/abs/1904.05068)  
 
-## 4. experiment setup  
+## 4. setup  
 Baseline performance follows standard image classification training procedures.  
 
 
 ## 5. training skills
+
 |tricks|performance|  
 |:-------:|:-------:|  
 |baseline||   
@@ -77,3 +78,20 @@ Baseline performance follows standard image classification training procedures.
 |data augmentation||
 |Learning Rate Schedule||
 
+
+## 6.experiments
+
+① experiments on CIFAR100
+
+|teacher|ResNet18||ResNet34||ResNet50||ResNet101||ResNet152|
+|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|  
+|student|mobilenet_v2|||||  
+|teacher baseline|||||  
+|student baseline|||||  
+|KD|||||  
+|FitNets|||||    
+|RKD|||||   
+|PKT|||||  
+|L2|||||  
+|AT|||||  
+|overhaul|||||    
