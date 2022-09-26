@@ -132,8 +132,8 @@ Baseline performance follows standard image classification training procedures.
 
 |datasets|student|KD|AT|L2|FitNets|CRD|RKD|PKT|teacher|  
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|   
-|CIFAR100→Tiny-ImageNet||||||||||  
 |CIFAR100→STL-10||||||||||  
+|CIFAR100→Tiny-ImageNet||||||||||  
 
 
 
