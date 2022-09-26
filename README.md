@@ -99,9 +99,25 @@ Baseline performance follows standard image classification training procedures.
 |overhaul|||||  
 
 #### same architecture
+
 |teacher|ResNet18|ResNet34|ResNet50|ResNet101|ResNet152|  
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|   
 |student|resnet8×4|resnet32|resnet18|resnet34|resnet50|  
+|t_baseline|||||  
+|s_baseline|||||  
+|KD|||||  
+|FitNets|||||  
+|RKD|||||   
+|PKT|||||   
+|L2|||||   
+|AT|||||  
+|overhaul|||||
+
+#### different student networks
+
+|teacher|ResNet18|ResNet34|ResNet50|ResNet101|ResNet152|  
+|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|   
+|student|mobilenet_v2|shufflenet_v1|squeezenet_v0|shufflenet_v2|WRN-16-2|  
 |t_baseline|||||  
 |s_baseline|||||  
 |KD|||||  
