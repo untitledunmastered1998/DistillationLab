@@ -98,6 +98,21 @@ Baseline performance follows standard image classification training procedures.
 |AT|||||  
 |overhaul|||||  
 
+#### different student networks
+
+|teacher|ResNet18|ResNet34|ResNet50|ResNet101|ResNet152|  
+|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|   
+|student|mobilenet_v2|shufflenet_v1|squeezenet_v0|shufflenet_v2|WRN-16-2|  
+|t_baseline|||||  
+|s_baseline|||||  
+|KD|||||  
+|FitNets|||||  
+|RKD|||||   
+|PKT|||||   
+|L2|||||   
+|AT|||||  
+|overhaul|||||  
+
 #### same architecture
 
 |teacher|ResNet18|ResNet34|ResNet50|ResNet101|ResNet152|  
@@ -113,20 +128,6 @@ Baseline performance follows standard image classification training procedures.
 |AT|||||  
 |overhaul|||||
 
-#### different student networks
-
-|teacher|ResNet18|ResNet34|ResNet50|ResNet101|ResNet152|  
-|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|   
-|student|mobilenet_v2|shufflenet_v1|squeezenet_v0|shufflenet_v2|WRN-16-2|  
-|t_baseline|||||  
-|s_baseline|||||  
-|KD|||||  
-|FitNets|||||  
-|RKD|||||   
-|PKT|||||   
-|L2|||||   
-|AT|||||  
-|overhaul|||||
 
 #### cross-model transfer
 
