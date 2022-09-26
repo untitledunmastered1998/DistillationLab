@@ -81,7 +81,9 @@ Baseline performance follows standard image classification training procedures.
 
 ## 6.experiments
 
-① experiments on CIFAR100
+### experiments on CIFAR100
+
+#### same student, different teacher networks
 
 |teacher|ResNet18|ResNet34|ResNet50|ResNet101|ResNet152|  
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|   
@@ -94,4 +96,18 @@ Baseline performance follows standard image classification training procedures.
 |PKT|||||   
 |L2|||||   
 |AT|||||  
-|overhaul|||||    
+|overhaul|||||  
+
+#### same architecture
+|teacher|ResNet18|ResNet34|ResNet50|ResNet101|ResNet152|  
+|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|   
+|student|resnet8×4|resnet32|resnet18|resnet34|resnet50|  
+|t_baseline|||||  
+|s_baseline|||||  
+|KD|||||  
+|FitNets|||||  
+|RKD|||||   
+|PKT|||||   
+|L2|||||   
+|AT|||||  
+|overhaul|||||
