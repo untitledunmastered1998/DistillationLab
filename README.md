@@ -86,8 +86,8 @@ Baseline performance follows standard image classification training procedures.
 |teacher|ResNet18|ResNet34|ResNet50|ResNet101|ResNet152|  
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|   
 |student|mobilenet_v2|||||  
-|teacher baseline|||||  
-|student baseline|||||  
+|t_baseline|||||  
+|s_baseline|||||  
 |KD|||||  
 |FitNets|||||  
 |RKD|||||   
