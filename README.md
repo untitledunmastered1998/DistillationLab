@@ -83,15 +83,15 @@ Baseline performance follows standard image classification training procedures.
 
 ① experiments on CIFAR100
 
-|teacher|ResNet18||ResNet34||ResNet50||ResNet101||ResNet152|
+|teacher|ResNet18||ResNet34||ResNet50||ResNet101||ResNet152|  
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|   
 |student|mobilenet_v2|||||  
 |teacher baseline|||||  
 |student baseline|||||  
 |KD|||||  
-|FitNets|||||    
+|FitNets|||||  
 |RKD|||||   
-|PKT|||||  
-|L2|||||  
+|PKT|||||   
+|L2|||||   
 |AT|||||  
 |overhaul|||||    
