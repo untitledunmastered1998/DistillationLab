@@ -3,7 +3,7 @@ untitledunmastered1998/DistillationLab
 
 ## Requirements
 
-experiment eviroument
+experiment environment
 - python3.8.12
 - pytorch1.10.1
 
