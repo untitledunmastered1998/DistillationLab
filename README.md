@@ -17,7 +17,7 @@ experiment environment
 |vggface2|2763078|548208|9131|low|  
 |ImageNet|1281167|50000|1000|high|
 |ImageNet_subset|12610|5000|100|high|  
-|(loader还没写)ImageNet32| | | |low|  
+|ImageNet32|1281167|50000|1000|low|  
 |Tiny-ImageNet|100000|10000|200|low|  
 |Cars|8144|8041|196|high|  
 |flowers102|2040|6149|102|high|  
